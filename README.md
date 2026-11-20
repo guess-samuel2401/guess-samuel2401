@@ -49,22 +49,12 @@ y, cuando hace falta, una web con roles y seguridad en la base de datos.
 <tr>
 <td width="50%" valign="top">
 
-#### [🌍 Mapamundi](https://github.com/guess-samuel2401/mapamundi)
-Juego de geografía para Windows: reconoce el continente y coloca cada uno de los **197 países** en su lugar. Mapa propio dibujado desde fronteras reales, cinco modos de juego, logros y récords. Español e inglés.
-
-`Java 25` `JavaFX` `Maven` · [⬇️ Descargar](https://github.com/guess-samuel2401/mapamundi/releases/latest)
-
-</td>
-<td width="50%" valign="top">
-
 #### [⭐ Proyecto Estrella](https://github.com/guess-samuel2401/proyecto-estrella)
 Juego cozy en pixel art: una gatita rosa cultiva, pesca, teje y decora en un valle junto al mar. Motor, arte y sonido hechos desde cero, sin librerías.
 
 `JavaScript` `HTML5 Canvas` `Web Audio` `Electron` · [⬇️ Descargar](https://github.com/guess-samuel2401/proyecto-estrella/releases/latest)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [⚓ Comedor Base Naval](https://github.com/guess-samuel2401/comedor-base-naval)
@@ -73,7 +63,9 @@ Facturación y control de costos para un comedor institucional: raciones, caja d
 `Python` `Tkinter` `SQLite` · [⬇️ Descargar](https://github.com/guess-samuel2401/comedor-base-naval/releases/latest)
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 #### [🗺️ Rutas turísticas de Manabí](https://github.com/guess-samuel2401/proyecto-integrador-rutas-manabi)
 Planificador de rutas turísticas: la ruta más corta, rápida o barata con **Dijkstra**, dibujada sobre carreteras reales de OpenStreetMap. Funciona sin internet.
@@ -84,10 +76,15 @@ Planificador de rutas turísticas: la ruta más corta, rápida o barata con **Di
 </tr>
 </table>
 
-### 🔒 Otros proyectos (privados / para clientes)
+### 🔒 Proyectos comerciales y privados
+
+Software que desarrollo para clientes o que comercializo. El código y los instaladores no son públicos.
 
 | Proyecto | Qué hace | Stack |
 |---|---|---|
+| **FitBase** | Sistema para administrar gimnasios: socios, membresías y congelamientos, check-in con QR, clases y reservas, punto de venta, facturación y portal del socio | Next.js · Electron · Drizzle ORM |
+| **KOI Sistema** | Sistema de gestión para un local de gaming y billar | React · TypeScript · Electron · Vite |
+| **Mapamundi** | Juego de geografía para Windows: coloca los 197 países en su lugar del mapa, con cinco modos de juego, logros y récords, en español e inglés | Java · JavaFX |
 | **Toquilla y Colores** | Sistema web para un centro infantil: estudiantes, asistencia, reportes y matrícula en línea para las familias, con roles y *Row Level Security* | Next.js · Supabase · TypeScript |
 | **Aprendo Jugando** | App educativa Android para niños: letras, sílabas, lectura y matemáticas con voz en español, sin internet | Android · HTML5 · Node.js |
 | **Lector** | Convierte archivos de gestiones eléctricas en reportes de costos por cuadrilla, para varias empresas, con roles por empresa | Python · PySide6 · PostgreSQL |
